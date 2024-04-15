@@ -1,0 +1,95 @@
+/*全局样式*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e8d8;
+    color: #333;
+}
+
+/*页眉样式*/
+header {
+    background-color: #768774;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/*轮播图样式*/
+.carousel {
+    max-width: 800px;
+    max-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel img:first-child {
+    opacity: 1;
+}
+
+/*介绍区域样式*/
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro h2 {
+    color: #D38F50;
+    margin-top: 0;
+}
+
+.intro p {
+    line-height: 1.6;
+}
+
+/*页脚样式*/
+footer {
+    background-color: #DEBB93;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/*媒体查询,适配手机*/
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+    }
+}
