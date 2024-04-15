@@ -3,9 +3,9 @@ let carouselImages = document.querySelectorAll('.carousel img');
 let currentImage = 0;
 
 function carousel() {
-    carouselImages[currentImage].style.opacity = 0;
+    carouselImages[currentImage].classList.remove('active');
     currentImage = (currentImage + 1) % carouselImages.length;
-    carouselImages[currentImage].style.opacity = 1;
+    carouselImages[currentImage].classList.add('active');
 }
 
 setInterval(carousel, 3000);
