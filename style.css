@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #528B96;
-    color: #A57F74;
+    background-color: #E4E3DF;
+    color: #528B96;
 }
 
 /*页眉样式*/
 header {
-    background-color: #768774;
+    background-color: #528B96;
     color: #E4E3DF;
     padding: 20px;
     display: flex;
@@ -72,13 +72,13 @@ header h1 {
 
 /*页脚样式*/
 footer {
-    background-color: #DEBB93;
+    background-color: #528B96;
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: #A57F74;
+    color: #E4E3DF;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -105,13 +105,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #528B96; /* 新的背景颜色 */
-    color: #A57F74; /* 保持文字颜色不变，因为它在新配色方案中未指定，且与背景形成良好对比 */
+    background-color: #E4E3DF;
+    color: #528B96;
 }
 
 /*页眉样式*/
 header {
-    background-color: #768774;
+    background-color: #528B96;
     color: #E4E3DF;
     padding: 20px;
     display: flex;
@@ -157,7 +157,7 @@ header h1 {
 }
 
 .intro h2 {
-    color: #A57F74; /* 强调色用于标题 */
+    color: #A57F74;
     margin-top: 0;
 }
 
@@ -167,13 +167,13 @@ header h1 {
 
 /*页脚样式*/
 footer {
-    background-color: #DEBB93;
+    background-color: #528B96;
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: #A57F74;
+    color: #E4E3DF;
     text-decoration: none;
     margin: 0 10px;
 }
