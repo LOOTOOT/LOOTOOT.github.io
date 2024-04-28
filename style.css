@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #E4E3DF;
-    color: #333;
+    background-color: #528B96;
+    color: #A57F74;
 }
 
 /*页眉样式*/
 header {
-    background-color: #528B96;
-    color: #fff;
+    background-color: #768774;
+    color: #E4E3DF;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -72,13 +72,13 @@ header h1 {
 
 /*页脚样式*/
 footer {
-    background-color: #528B96;
+    background-color: #DEBB93;
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: #333;
+    color: #A57F74;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -105,14 +105,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #E4E3DF; /* 新的背景颜色 */
-    color: #333; /* 保持文字颜色不变，因为它在新配色方案中未指定，且与背景形成良好对比 */
+    background-color: #528B96; /* 新的背景颜色 */
+    color: #A57F74; /* 保持文字颜色不变，因为它在新配色方案中未指定，且与背景形成良好对比 */
 }
 
 /*页眉样式*/
 header {
-    background-color: #528B96; /* 页眉新的背景颜色 */
-    color: #fff; /* 页眉内文字颜色保持不变，以确保对比度 */
+    background-color: #768774;
+    color: #E4E3DF;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -167,13 +167,13 @@ header h1 {
 
 /*页脚样式*/
 footer {
-    background-color: #528B96; /* 页脚背景颜色与页眉相同 */
+    background-color: #DEBB93;
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: #333; /* 保持链接颜色不变，以保证良好的可读性 */
+    color: #A57F74;
     text-decoration: none;
     margin: 0 10px;
 }
