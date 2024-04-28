@@ -29,8 +29,15 @@ header h1 {
 /*轮播图样式*/
 .carousel {
     width: 100%;
-    height: 400px; /* 添加固定高度 */
-    overflow: hidden; /* 隐藏超出容器高度的部分 */
+    height: 50vh; /* 使用视窗高度的百分比 */
+    overflow: hidden;
+}
+
+/*媒体查询,适配大屏幕*/
+@media screen and (min-width: 1024px) {
+    .carousel {
+        height: 30vh; /* 大屏幕上使用更小的高度百分比 */
+    }
 }
 
 .carousel img {
