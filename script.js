@@ -1,4 +1,3 @@
-// 轮播图自动播放
 let carouselImages = document.querySelectorAll('.carousel img');
 let currentImage = 0;
 
@@ -10,7 +9,7 @@ function carousel() {
 
 setInterval(carousel, 3000);
 
-// 悬停效果
+
 let cultureText = document.querySelector('.culture p');
 let studioText = document.querySelector('.studio p');
 
