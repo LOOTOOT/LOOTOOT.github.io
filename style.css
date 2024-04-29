@@ -1,4 +1,3 @@
-/*全局样式*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +6,6 @@ body {
     color: #333;
 }
 
-/*页眉样式*/
 header {
     background-color: #528B96;
     color: #E4E3DF;
@@ -26,24 +24,23 @@ header h1 {
     margin: 0;
 }
 
-/*轮播图样式*/
 .carousel {
     width: 100%;
-    height: 50vh; /* 使用视窗高度的百分比 */
+    height: 50vh;
     overflow: hidden;
 }
 
-/*媒体查询,适配大屏幕*/
+
 @media screen and (min-width: 1024px) {
     .carousel {
-        height: 30vh; /* 大屏幕上使用更小的高度百分比 */
+        height: 30vh; 
     }
 }
 
 .carousel img {
     width: 100%;
-    height: 100%; /* 让图片填充容器高度 */
-    object-fit: cover; /* 图片自适应并裁剪 */
+    height: 100%; 
+    object-fit: cover; 
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     display: none;
@@ -53,7 +50,7 @@ header h1 {
     display: block;
 }
 
-/*介绍区域样式*/
+
 .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,7 +80,7 @@ footer a {
     margin: 0 10px;
 }
 
-/*媒体查询,适配手机*/
+
 @media screen and (max-width: 600px) {
     header {
         flex-direction: column;
@@ -100,7 +97,7 @@ footer a {
     }
 }
 
-/*全局样式*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -109,7 +106,7 @@ body {
     color: #333;
 }
 
-/*页眉样式*/
+
 header {
     background-color: #528B96;
     color: #E4E3DF;
@@ -128,17 +125,17 @@ header h1 {
     margin: 0;
 }
 
-/*轮播图样式*/
+
 .carousel {
     width: 100%;
-    height: 400px; /* 添加固定高度 */
-    overflow: hidden; /* 隐藏超出容器高度的部分 */
+    height: 400px; 
+    overflow: hidden; 
 }
 
 .carousel img {
     width: 100%;
-    height: 100%; /* 让图片填充容器高度 */
-    object-fit: cover; /* 图片自适应并裁剪 */
+    height: 100%; 
+    object-fit: cover; 
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     display: none;
@@ -148,7 +145,7 @@ header h1 {
     display: block;
 }
 
-/*介绍区域样式*/
+
 .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -165,7 +162,7 @@ header h1 {
     line-height: 1.6;
 }
 
-/*页脚样式*/
+
 footer {
     background-color: #528B96;
     padding: 20px;
@@ -178,7 +175,7 @@ footer a {
     margin: 0 10px;
 }
 
-/*媒体查询,适配手机*/
+
 @media screen and (max-width: 600px) {
     header {
         flex-direction: column;
